@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding-top: 0;
-    overflow: hidden;
 }
 
 header {
@@ -135,4 +134,27 @@ footer {
     color: aliceblue;
     text-align: center;
     padding: 20;
+}
+
+.imgs{
+    display: flex;
+    padding-left: 570px;
+    margin-top: 100px;
+}
+
+.imgs img{
+    width: 50px;
+    height: 220px;
+    border-radius: 100px;
+    border: 10px;
+    border-color: black;
+    border-style: groove;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.imgs img:hover{
+    width: 150px;
+    height: 220px;
+    transition: 0.5s ;
 }
